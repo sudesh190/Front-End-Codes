@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       h1{
+        background-color: brown;
+        font-size: 40px;
+       }
+       h2{
+         background-color: goldenrod;
+        font-size: 40px;
+       }
+       div{
+            color: back;
+            height: 50px;
+            margin: 20px;
+            padding: 30px;
+            font-size: 40px;
+            background-color: yellow; 
+        }
+        
+         #animate1{
+            animation-name: text;
+            animation-duration: 6s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+         }
+         #animate2{
+            animation-name: text;
+            animation-duration: 6s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+         }
+         #animate3{
+            animation-name: text;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+         }
+         @keyframes text{
+            from{
+               margin-left:60%;
+            }
+            to{
+                margin-right: 0%;
+            }
+         }
+    </style>
+</head>
+<body>
+   <div id="animate1">Content 1</div>
+   <h1 id="animate2">Content 2</h1>
+    <h2 id="animate3">Content 3</h2>
+
+</body>
+</html>

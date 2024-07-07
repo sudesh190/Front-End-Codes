@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        ul {
+            background-color: darkcyan;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: orange;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .active-link {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li style="background-color: yellow;"><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li class="active-link"><a href="#">Search</a></li>
+    </ul>
+</body>
+
+</html>

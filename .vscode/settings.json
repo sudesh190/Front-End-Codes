@@ -1,0 +1,18 @@
+{
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.showOnStatusbar": false,
+    "liveServer.settings.root":"/", 
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.ignoreFiles": [
+        
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.mount": [
+        
+    ]
+}

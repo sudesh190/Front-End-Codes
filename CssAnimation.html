@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #normal-div1{
+            border: 10px solid blue;
+            height: 100px;
+            width: 200px;
+            margin: 20px;
+            padding: 20px;
+            animation-name: color;
+            animation-duration: 10s;
+        }
+        #div2{
+            border: 10px solid blue;
+            height: 100px;
+            width: 200px;
+            margin: 20px;
+            padding: 20px;
+        }
+        @keyframes color {
+            0%{                       /*% is Speed factor*/
+                background-color: red;
+            }
+            50%{
+                background-color: orange;
+            }
+            100%{
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="normal-div1"> Content 1</div>
+    <div id="div2">Content2</div>
+</body>
+</html>
